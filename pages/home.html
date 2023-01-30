@@ -177,6 +177,48 @@
 				class="div contact"
 			>
 				<h1 class="title title-contact">Contact</h1>
+				<form action="../javascript/messageHandler.js">
+					<div class="part1">
+						<label for="">Nome Completo:</label>
+						<input
+							type="text"
+							name="userName"
+							id="userName"
+							placeholder="Fulano Sicrano de Beltrano"
+						/>
+						<label for="">E-mail:</label>
+						<input
+							type="email"
+							name="userEmail"
+							id="userEmail"
+							placeholder="sicrano123@mail.com"
+						/>
+						<button
+							class="submitButton"
+							type="submit"
+						>
+							Enviar
+						</button>
+					</div>
+					<div class="part2">
+						<label for="">Mensagem:</label>
+						<textarea
+							name="userMessage"
+							id="userMessage"
+							style="resize: none"
+							maxlength="300"
+							placeholder="Cara, me amarrei nas suas fotos e adoraria fazer uma collab contigo..."
+						></textarea>
+					</div>
+				</form>
+				<div class="map">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.6659952580603!2d-47.893153925373085!3d-15.79574702884922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3aef31eba9a5%3A0x94a42643072586cb!2sCentro%20Empresarial%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1675105256839!5m2!1spt-BR!2sbr"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+				</div>
 			</section>
 		</main>
 		<footer id="footer">
@@ -196,7 +238,6 @@
 					<a href="#about">About me</a>
 					<a href="#gallery">Gallery</a>
 					<a href="#contact">Contact</a>
-					<a href="#footer">Footer</a>
 				</nav>
 			</div>
 		</footer>
